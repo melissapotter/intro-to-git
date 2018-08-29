@@ -1,0 +1,86 @@
+    1  pwd
+    2  cd /
+    3  ls
+    4  cd home/
+    5  cd ubuntu/
+    6  cd workspace/
+    7  mkdir intro-to-git
+    8  cd /
+    9  cd ~
+   10  cd workspace/
+   11  mkdir intro-to-git
+   12  cd intro-to-git/
+   13  git init
+   14  touch README.MD
+   15  c9 README.MD 
+   16  ls
+   17  git remote add origin git@github.com:melissapotter/intro-to-git.git
+   18  git add .
+   19  git commit -m "Initialized with a readme file"
+   20  git push -u 
+   21  t
+   22  cd intro-to-git/
+   23  touch mistake
+   24  git add .
+   25  git commit -m "Made a mistake."
+   26  git push -u
+   27  rm mistake
+   28  git add .
+   29  git commit -m "fixed mistake"
+   30  git push -u
+   31  ..
+   32  ls
+   33  ..
+   34  ls
+   35  ..
+   36  ls
+   37  ls-a
+   38  ..
+   39  ls -a
+   40  ls
+   41  cd workspace
+   42  cd /workspace
+   43  cd workspace/
+   44  pwd
+   45  ls
+   46  cd home/ubuntu/workspace/
+   47  mkdir 
+   48  mkdir 8-28-2018-melissa
+   49  mkdir 8-28-2018-potter
+   50  pwd
+   51  touch myfile.txt
+   52  git add .
+   53  cd intro-to-git/
+   54  touch myfile.txt
+   55  git add .
+   56  git commit -m "Presto Filo Contents!"
+   57  ls-l
+   58  more 8-28-2018-melissa
+   59  pwd
+   60  ..
+   61  git push -u
+   62  push -u
+   63  ls
+   64  touch 8-28-2918-melissa/myfile.txt
+   65  touch 8-28-2018-melissa/myfile.txt
+   66  vi 8-28-2018-melissa/myfile.txt
+   67  cat 8-28-2018-melissa.txt
+   68  cat myfile.txt
+   69  mkdir 08-28-2018-melissa
+   70  ls
+   71  rm 08-28-2018-melissa/
+   72  rm -R 08-28-2018-melissa/
+   73  ls
+   74  rm myfile.txt 
+   75  ls
+   76  touch 8-28-2018-melissa/myfile.txt
+   77  vi 8-28-2018-melissa/myfile.txt
+   78  cat 8-28-2018-melissa/myfile.txt
+   79  cp 8-28-2018-melissa/myfile.txt 8-28-2018-potter/my2ndfile.txt
+   80  ls 8-28-2018-potter
+   81  ls- l 8-28-2018-potter/my2ndfile.txt
+   82  ls -l 8-28-2018-potter/my2ndfile.txt
+   83  chmod o+w 8-28-2018-potter/my2ndfile.txt
+   84  ls -l 8-28-2018-potter/my2ndfile.txt
+   85  vi 8-28-2018-potter/my2ndfile.txt
+   86  history > melissa-potter-history.txt
